@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+
+body{
+   font-family: 'Poppins', sans-serif; 
+   font-size: 15px;
+}
+.enrolcodeform {
+    float: left;
+    /*height: 100%;*/
+    width: 42%;
+}
+.enrolcodeform1 {
+    background-color: #080414;
+    border-radius: 0;
+    color: #fcfcfc;
+    font-size: 1.4em;
+    margin-left: 0;
+    min-width: 550px;
+    padding-left: 1px;
+    padding-bottom: 20px;
+}
+
+.enrolcodesubmit {
+    -moz-border-bottom-colors: none !important;
+    -moz-border-left-colors: none !important;
+    -moz-border-right-colors: none !important;
+    -moz-border-top-colors: none !important;
+    background: #0085AD none repeat scroll 0 0 !important;
+    border-color: #0085AD #0085AD #0085AD #0085AD!important;
+    border-image: none !important;
+    /*border-radius: 5px !important;*/
+    border-style: solid !important;
+    border-width: 1px !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    /*font-size: 150% !important;*/
+    /*height: 65px !important;*/
+    padding: 5px !important;
+    text-transform: uppercase !important;
+    /*width: 208px!important;*/
+}
+.fitem_actionbuttons input.enrolcodesubmit {
+    width: 100% !important;
+    margin: 0;
+    border-radius: 0 !important;
+    height: 46px !important;
+    font-size: 24px !important;
+    margin-top: 10px;
+}
+
+.enrolcodebox {
+    border: medium none;
+    font-size: 0.9em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    text-align: center;
+    width: 75%;
+}
+
+.enrolcodeform .mform .required {
+    font-size: 0.7em;
+    text-align: center;
+    color: #FCFCFC !important;
+}
+.enrolcodeform1 .mform .fitem {
+    margin-bottom: 12px;
+    overflow: visible;
+    width: 505px;
+}
+
+
+.enrolcodeform .mform .required {
+    font-size: 0.7em;
+    text-align: center;
+}
+.enrolcodeform1 .mform .required {
+    color: #28475b;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.fsubmit {
+	margin-left: 0 !important;
+	text-align:center;
+}
+
+.enrolcodesubmit:hover {
+    background-color:#EBA521!important ;
+    border-bottom-color:#EBA521!important ;
+    border-right-color:#EBA521!important ;
+    border-top-color:#EBA521!important ;
+    border-left-color:#EBA521!important ;
+    cursor:pointer!important ;
+}
+
+
+input#id_code {
+    border-color: #cccccc;
+    border-style: solid;
+    height: 40px;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0px;
+    box-sizing: border-box;
+}
+
+.red { color:red;} 
+
+.bottom { margin-bottom: 20px; }
+
+.enrolcodeform1 .mform .fitem{
+    width: auto;
+}
+
+form#mform1 {
+    width: 300px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.mform .fitem div.fitemtitle{
+    width: 100%;
+}
+@media (min-width: 1200px){
+    form#mform1.mform .fitem div.fitemtitle{
+        width: 100% !important;
+        text-align: center;
+        padding-bottom: 0px
+    }
+     form#mform1.mform .fitem div.fitemtitle.left{
+       
+        text-align: left;
+        
+    }
+    #mform1.mform .fitem div.fitemtitle{
+        width: auto !important;
+    }
+    form#mform1.mform .fitem .felement{
+        margin-left: 0;
+    }
+
+}
+form#mform1.mform .fitem .fitemtitle label {
+    font-weight: 400 !important;
+    font-size: 16px;
+}
+.login_logo{
+    max-width: 100%;
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.login_logo img{
+    max-width: 100%;
+}
+
+@media (max-width: 1199px){
+    form#mform1.mform .fitem div.fitemtitle{
+        text-align: center !important;
+    }
+    form#mform1.mform .fitem div.fitemtitle.left{
+       
+        text-align: left;
+        
+    }
+}
+
+.help_log_icon{
+    background: #0085ad;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    display: inline-block;
+    line-height: 14px;
+    color: #fff;
+    font-size: 11px;
+    margin: 1px 0 0 3px;
+}
+
+
+
